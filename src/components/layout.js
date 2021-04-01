@@ -39,9 +39,9 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, All rights reserved
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <p>Gilbert King Jr.</p>
         </footer>
       </div>
     </>
