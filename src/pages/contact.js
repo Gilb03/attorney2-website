@@ -10,7 +10,7 @@ const ContactUs = () => (
     <h1>Contact Us</h1>
     <div className="container">
     <p>Feel free to get in touch with us by using the information below.We look forward to your call!</p>
-    <p>Email: legalgking@aol.com</p>
+    <p>Email: gilkin@gilbertkingjrpc.com</p>
     <p>Phone: (219) 938-8302</p>
     <br></br>
     <h3><bold>Hours of Operation</bold></h3>

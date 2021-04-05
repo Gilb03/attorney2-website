@@ -1,7 +1,6 @@
 import * as React from "react"
 //import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -9,26 +8,25 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <nav />
-    <p>Specializing in Family and Juvenile Law for over 30 Years</p>
+    <p>Specializing in Family and Juvenile Law for over 40 Years</p>
     <StaticImage
-      src="../images/test2.png"
+      src="../images/office.png"
       width={960}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="legal services"
       style={{ marginBottom: `1.45rem`,display:`block`, objectPosition:`center`, objectFit:`cover`}}
-    />
+   />
     <p>
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-     sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui 
-     dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-      incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
-      exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-       vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
-       dolorem eum fugiat quo voluptas nulla pariatur?"
+    I am admitted to practice law in the states of Iowa and Indiana.  
+    Additionally, I have passed the Pennsylvania Bar Examination and upon meeting residency  requirements, can practice in the courts of that state. 
+    I am also admitted to practice in the following federal courts: Northern and Southern Districts of Indiana, Northern District of Illinois, and the Eastern District of Michigan. 
+     U.S. Tax Court, U.S. Court of Appeals, Sixth & Seventh Circuit and the U.S. Supreme Court.
     </p>
+    <p> Additionally, I have served as corporation counsel, county counsel, trial counsel, labor law 
+      and community development attorney. These experinces have allowed me a truly unique perspective when it comes to helping 
+      the every day person understand all the legal jargon that comes with any issues they may be dealing with. Patience, empathy and hard work 
+      are the foundations of this practice.  </p>
   </Layout>
 )
 
