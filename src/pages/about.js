@@ -16,8 +16,9 @@ const About = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem`,display:`block`, objectPosition:`center`, objectFit:`cover`}}
    />
-    <p>Mr. King has over 40 years of experience in practicing civil law including corporation counsel, family and misdemeanor law. 
-      He was on the board of law examiners for the state of Indiana for 10 years. His primary focus include personal injury and property acquisition for the city of Gary and corporations. 
+    <p>I have over 40 years of experience in practicing civil law including corporation counsel, family and misdemeanor law. 
+    My primary focus include personal injury and property acquisition for the city of Gary and corporations. 
+    Additionally, I was on the Board of Law Examiners for the state of Indiana for 10 years. 
        </p>
     <p>
     I worked at the City of Gary - Law Department, January 1988 to April 15, 1993.  As Corporation Counsel I served as the senior official responsible for all activities of the Law Department. 
@@ -32,8 +33,8 @@ const About = () => (
     I personally was involved in a number of Federal and State court cases from trial through brief preparation.
     </p>
     <h1>Current Services</h1>
-      <p>The current service offerings include juvenile and land acquisition cases. If you or somebody you know is 
-        facing any legal challenges in these two areas head over to the contact page and drop me a line. I look forward to speaking with you!
+      <p>The current service offerings include Juvenile and land acquisition . If you or somebody you know is 
+        facing any legal challenges in these two areas head over to the contact page and drop me a line. Please call to schedule an appointment first. I look forward to speaking with you!
       </p>
 
     <Link to="/">Go back to the homepage</Link>

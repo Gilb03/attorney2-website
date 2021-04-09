@@ -7,9 +7,11 @@ import SEO from "../components/seo"
 const ContactUs = () => (
   <Layout>
     <SEO title="Contact Us" />
-    <h1>Contact Us</h1>
+    <h1>Contact</h1>
     <div className="container">
-    <p>Feel free to get in touch with us by using the information below.We look forward to your call!</p>
+    <p>Feel free to get in touch with me by using the information below. Please call ahead to schedule an appointmemt. 
+      Due to Covid-19, I do emphasize that all meetings are via phone or zoom until further notice. 
+    I look forward to your call!</p>
     <p>Email: gilkin@gilbertkingjrpc.com</p>
     <p>Phone: (219) 938-8302</p>
     <br></br>
@@ -17,8 +19,7 @@ const ContactUs = () => (
     <p>Mon-Fri &nbsp;  &nbsp;  &nbsp; 9:00am - 5:00pm</p>
     <p>Sat-Sun &nbsp;  &nbsp;  &nbsp; closed</p>
 
-    <h3><bold>Location</bold></h3>
-    <p>1001 N. Shelby St. Gary, IN 46403</p>
+    
     </div>
     <Link to="/">Back to homepage</Link>
   </Layout>
