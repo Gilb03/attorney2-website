@@ -2,11 +2,12 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Location from "../components/location"
+import SeoInfo from "../components/seo"
 
 const ContactUs = () => (
   <Layout>
-    <SEO title="Contact Us" />
+    <SeoInfo title="Contact Us" />
     <h1>Contact</h1>
     <div className="container">
     <p>Feel free to get in touch with me by using the information below. Please call ahead to schedule an appointmemt. 
@@ -16,12 +17,11 @@ const ContactUs = () => (
     <p>Phone: (219) 938-8302</p>
     <br></br>
     <h3><bold>Hours of Operation</bold></h3>
-    <p>Mon-Fri &nbsp;  &nbsp;  &nbsp; 9:00am - 5:00pm</p>
-    <p>Sat-Sun &nbsp;  &nbsp;  &nbsp; closed</p>
-
-    
+    <p>Mon-Fri: &nbsp;  &nbsp;  &nbsp; 9:00am - 5:00pm</p>
+    <p>Sat-Sun: &nbsp;  &nbsp;  &nbsp; closed</p>
     </div>
     <Link to="/">Back to homepage</Link>
+    <Location  />
   </Layout>
 )
 

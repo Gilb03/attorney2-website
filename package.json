@@ -6,7 +6,8 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "gatsby": "^3.1.2",
+    "dotenv": "^8.2.0",
+    "gatsby": "^3.3.1",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
     "gatsby-plugin-image": "^1.1.2",
     "gatsby-plugin-manifest": "^3.1.0",
@@ -15,9 +16,12 @@
     "gatsby-plugin-sharp": "^3.1.2",
     "gatsby-source-filesystem": "^3.1.0",
     "gatsby-transformer-sharp": "^3.1.0",
+    "google-map-react": "^2.1.9",
+    "google-maps-react": "^2.0.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-google-maps": "^9.4.5",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {

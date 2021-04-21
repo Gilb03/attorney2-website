@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gilbert King Jr. Attorney at Law ⚖️`,
+    title: `Gilbert King Jr. Attorney at Law`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -29,8 +29,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
 }
+//    require("dotenv").config({
+//  path: `.env.${process.env.GATSBY_API_KEY}`,
+//})

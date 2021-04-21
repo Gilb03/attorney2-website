@@ -1,12 +1,12 @@
 import * as React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SeoInfo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SeoInfo title="Home" />
     <nav />
     <p>Specializing in Family and Juvenile Law for over 40 Years</p>
     <StaticImage

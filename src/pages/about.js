@@ -2,11 +2,11 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import SeoInfo from "../components/seo"
 
 const About = () => (
   <Layout>
-    <SEO title="Attorney" />
+    <SeoInfo title="Attorney" />
     <h1>About</h1>
     <StaticImage
       src="../images/IMG_0088.JPG"
