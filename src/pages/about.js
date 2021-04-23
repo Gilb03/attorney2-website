@@ -9,7 +9,7 @@ const About = () => (
     <SeoInfo title="Attorney" />
     <h1>About</h1>
     <StaticImage
-      src="../images/IMG_0088.JPG"
+      src="../images/IMG_0076.JPG"
       width={960}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}

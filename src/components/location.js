@@ -35,5 +35,5 @@ class Location extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: (process.env.GATSBY_API_KEY )
+  apiKey: (process.env.GATSBY_API_KEY)
 })(Location)
