@@ -20,7 +20,7 @@ const ContactUs = () => (
     <p>Mon-Fri: &nbsp;  &nbsp;  &nbsp; 9:00am - 5:00pm</p>
     <p>Sat-Sun: &nbsp;  &nbsp;  &nbsp; closed</p>
     </div>
-    <Link to="/">Back to homepage</Link>
+    <Link to="/">Back</Link>
     <Location  />
   </Layout>
 )

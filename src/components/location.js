@@ -12,7 +12,7 @@ class Location extends Component {
     return (
         <div className="Location">
         <Map google={this.props.google} 
-        zoom={14}
+        zoom={16}
         style={style}
         initialCenter={{
           lat:  41.619, 
