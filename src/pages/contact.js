@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Form from "../components/form"
 
 import Layout from "../components/layout"
 import Location from "../components/location"
@@ -20,6 +21,7 @@ const ContactUs = () => (
     <p>Mon-Fri: &nbsp;  &nbsp;  &nbsp; 9:00am - 5:00pm</p>
     <p>Sat-Sun: &nbsp;  &nbsp;  &nbsp; closed</p>
     </div>
+  <Form />
     <Link to="/">Back</Link>
     <Location  />
   </Layout>
